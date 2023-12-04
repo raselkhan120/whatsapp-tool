@@ -1,16 +1,16 @@
 * {
   font-family: sans-serif;
 }
-.container {
-  width: 50% !important;
+.main-container {
+  width: 1080px;
 }
 .hColor {
   color: #7972ff;
 }
 
-@media (max-width: 768px) {
-  .container {
-    width: 100% !important;
+@media screen and (max-width: 768px) {
+  .main-container {
+    width: 100vw;
   }
   .fw-bold {
     font-size: 20px;
